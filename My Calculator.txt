@@ -1,0 +1,47 @@
+a=int(input('Enter first no:'))
+b=int(input('Enter second no:'))
+choice=0
+while choice<8:
+    print('**Available Arithemetic Operations**')
+    print('Enter 1 for Addition')
+    print('Enter 2 for Subtraction')
+    print('Enter 3 for Multiplication')
+    print('Enter 4 for Division')
+    print('Enter 5 for Modulus')
+    print('Enter 6 for Exponentiation')
+    print('Enter 7 for Floor Division')
+    print('Enter 8 for Exit')
+    choice=int(input('Enter your choice:'))
+    if choice==1:
+        print('Choice is Addition')
+        sum=a+b
+        print('Output is',sum)
+    elif choice==2:
+        print('Choice is Subtraction')
+        sub=a-b
+        print('Output is',sub)
+    elif choice==3:
+        print('choice is Multiplication')
+        mul=a*b
+        print('Output is',mul)
+    elif choice==4:
+        print('Choice is Division')
+        div=a/b
+        print('Output is',div)
+    elif choice==5:
+        print('Choice is Modulus')
+        mod=a%b
+        print('Output is',mod)
+    elif choice==6:
+        print('Choice is Exponentiation')
+        exp=a**b
+        print('Output is',exp)
+    elif choice==7:
+        print('Choice is Floor Division')
+        Fldiv=a//b
+        print('Output is',Fldiv)
+    elif choice==8:
+        break
+    else:
+        print('Invalid choice')
+
